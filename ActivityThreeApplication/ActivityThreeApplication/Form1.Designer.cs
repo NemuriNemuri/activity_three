@@ -39,6 +39,8 @@
             this.submitButton = new System.Windows.Forms.Button();
             this.closeButton = new System.Windows.Forms.Button();
             this.firstChoiceOthers = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // firstChoice1
@@ -55,7 +57,7 @@
             // 
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(36, 31);
+            this.titleLabel.Location = new System.Drawing.Point(139, 46);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(92, 29);
             this.titleLabel.TabIndex = 1;
@@ -66,9 +68,9 @@
             this.questionLabel1.AutoSize = true;
             this.questionLabel1.Location = new System.Drawing.Point(38, 104);
             this.questionLabel1.Name = "questionLabel1";
-            this.questionLabel1.Size = new System.Drawing.Size(179, 13);
+            this.questionLabel1.Size = new System.Drawing.Size(191, 13);
             this.questionLabel1.TabIndex = 2;
-            this.questionLabel1.Text = "Which country would you like to go?";
+            this.questionLabel1.Text = "Which country would you like to go to?";
             // 
             // firstChoice2
             // 
@@ -103,6 +105,7 @@
             // othersLabel
             // 
             this.othersLabel.AutoSize = true;
+            this.othersLabel.BackColor = System.Drawing.Color.Transparent;
             this.othersLabel.Location = new System.Drawing.Point(38, 206);
             this.othersLabel.Name = "othersLabel";
             this.othersLabel.Size = new System.Drawing.Size(114, 13);
@@ -120,7 +123,7 @@
             // 
             // submitButton
             // 
-            this.submitButton.Location = new System.Drawing.Point(86, 284);
+            this.submitButton.Location = new System.Drawing.Point(100, 278);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(75, 23);
             this.submitButton.TabIndex = 8;
@@ -130,7 +133,7 @@
             // 
             // closeButton
             // 
-            this.closeButton.Location = new System.Drawing.Point(167, 284);
+            this.closeButton.Location = new System.Drawing.Point(181, 278);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 10;
@@ -149,11 +152,22 @@
             this.firstChoiceOthers.UseVisualStyleBackColor = true;
             this.firstChoiceOthers.CheckedChanged += new System.EventHandler(this.firstChoiceOthers_CheckedChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ActivityThreeApplication.Properties.Resources.hachunemiku;
+            this.pictureBox1.Location = new System.Drawing.Point(167, 176);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(200, 168);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // SurveyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(323, 334);
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.ClientSize = new System.Drawing.Size(370, 334);
             this.Controls.Add(this.firstChoiceOthers);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.submitButton);
@@ -165,8 +179,10 @@
             this.Controls.Add(this.questionLabel1);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.firstChoice1);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "SurveyForm";
             this.Text = "Survey Form";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -185,6 +201,7 @@
         private System.Windows.Forms.Button submitButton;
         private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.CheckBox firstChoiceOthers;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -7,3 +7,14 @@ Z:\OO143\Activity_3\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\
 Z:\OO143\Activity_3\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.exe
 Z:\OO143\Activity_3\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.pdb
 Z:\OO143\Activity_3\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.SurveyForm.resources
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\bin\Debug\ActivityThreeApplication.exe.config
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\bin\Debug\ActivityThreeApplication.exe
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\bin\Debug\ActivityThreeApplication.pdb
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.SurveyForm.resources
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.Properties.Resources.resources
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.csproj.GenerateResource.cache
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.exe
+C:\Users\Administrator\Source\Repos\activity_three\ActivityThreeApplication\ActivityThreeApplication\obj\Debug\ActivityThreeApplication.pdb

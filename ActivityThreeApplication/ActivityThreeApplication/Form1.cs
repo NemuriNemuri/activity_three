@@ -102,5 +102,6 @@ namespace ActivityThreeApplication
                 othersField.Visible = false;
             }
         }
+
     }
 }
